@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Start*/
+
+.img1,.container,.imagine{
+	border-radius:9px;
+}
+body{
+	background-color:hsl(217, 54%, 11%);
+	font-family: 'Outfit';
+}
+.container{
+	color:hsl(215, 51%, 70%);
+	width:240px;
+	padding:20px;
+	margin: 14vh auto;
+	background-color:  hsl(216, 50%, 16%);
+}
+.img21{
+	position: absolute;
+	top: 45%;
+	z-index: 1;
+	transform: translate(-50%, -25%);
+    left: 48%;
+    margin: 0 auto;
+}
+.container_img:hover .imagine{
+   opacity: 0.7;
+   cursor: pointer;
+}
+ h1:hover,.span3:hover,.span1 p:hover{
+	color:hsl(178, 100%, 50%) ;
+	cursor: pointer;
+}
+
+.imagine{
+	opacity: 0;
+	background-color: hsl(178, 100%, 50%);
+	 position: absolute;
+  top: 17%;
+  bottom: 0;
+  left: 41.2%;
+  right: 0;
+  height:240px;
+  width: 240px;
+  transition: .5s ease;
+}
+.img1{
+	width: 240px;
+	height: 240px;
+	display:block;
+	margin: 0 auto;
+	margin-bottom:30px;
+}
+.img2{
+	width:25px;
+	display:inline-block;
+	heigth:25px;
+}
+.span1,.span2,.span3{
+	display:inline-block;
+}
+.span2{
+	float: right;
+}
+.span1,.span2{
+	display: flex;
+	align-items: center;
+}
+.span1 p,.span2 p{
+	margin-left: 5px;
+}
+.span1{
+	float: left;
+}
+.p2{
+	margin-left:15px;
+}
+h1,h2{
+	margin-bottom: 10px;
+}
+.footer{
+	display: flex;
+	align-items: center;
+}
+h2{
+	line-height:1.5;
+}
+hr{
+	height: 1px;
+	border: none;
+	margin-top:20px;
+	background-color:hsl(215, 32%, 27%);*/
+}
+h1,.span3{
+	color: hsl(0, 0%, 100%);
+}
+h1{
+	font-size: 18px;
+}
